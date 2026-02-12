@@ -10,18 +10,18 @@ const HowItWorks: React.FC = () => {
     },
     {
       id: "02",
-      title: "Coleta de Provas",
-      desc: "Orientamos você a separar prints, histórico de chamadas e protocolos."
+      title: "Análise Jurídica",
+      desc: "Verificamos se o seu caso está maduro para darmos entrada em uma ação"
     },
     {
       id: "03",
-      title: "Análise Jurídica",
-      desc: "Nossa equipe avalia a viabilidade do pedido de indenização sem custo inicial."
+      title: "Protocolo de Blindagem Contra o Telemarketing",
+      desc: "Iniciamos um protocolo para a redução da perturbação e ainda para a coleta de provas judiciais"
     },
     {
       id: "04",
-      title: "Atuação",
-      desc: "Buscamos a paralisação das ligações e a reparação financeira na Justiça."
+      title: "Ajuizamento",
+      desc: "Com o caso sólido, damos entrada na ação e buscamos uma indenização justa face ao seu sofrimento."
     }
   ];
 
@@ -59,8 +59,8 @@ const HowItWorks: React.FC = () => {
 
         <div className="mt-16 text-center">
           <Button 
-             text="INICIAR ATENDIMENTO" 
-             href="https://wa.me/SEUNUMERO"
+             text="QUERO PARAR DE RECEBER LIGAÇÕES AGORA" 
+             href="https://wa.me/5518997088728"
           />
         </div>
       </div>
