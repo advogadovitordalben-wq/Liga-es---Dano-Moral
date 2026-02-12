@@ -13,11 +13,13 @@ const Hero: React.FC = () => {
         {/* Conteúdo de Texto */}
         <div className="space-y-8 text-center md:text-left order-2 md:order-1">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-2xl">
-            LIGAÇÕES EXCESSIVAS <br/>
-            DE COBRANÇA OU OFERTAS <br/>
-            <span className="text-transparent bg-clip-text bg-gold-gradient">
-              PODEM GERAR INDENIZAÇÃO.
-            </span>
+            TRANSFORME A SUA <br/>
+            <span className="text-transparent bg-clip-text bg-gold-gradient italic">
+            PERTURBAÇÃO
+            </span> EM <br/>
+             <span className="text-legal-gold">
+            INDENIZAÇÃO.
+          </span>
           </h1>
           
           <p className="text-lg md:text-xl text-legal-text-muted font-light leading-relaxed max-w-2xl mx-auto md:mx-0">
