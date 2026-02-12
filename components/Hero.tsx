@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           
           <div className="pt-4 flex flex-col md:flex-row items-center gap-4 justify-center md:justify-start">
             <Button 
-              text="QUERO ANALISAR MEU CASO NO WHATSAPP" 
+              text="VERIFICAR SE TENHO DIREITO À INDENIZAÇÃO" 
               href="https://wa.me/SEUNUMERO" 
               className="md:text-lg w-full md:w-auto shadow-lg shadow-legal-gold/10"
             />
