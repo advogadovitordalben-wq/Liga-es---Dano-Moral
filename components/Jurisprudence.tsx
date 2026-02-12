@@ -55,7 +55,7 @@ const Jurisprudence: React.FC = () => {
                 {item.title}
               </h3>
               
-              <div className="text-3xl font-bold text-legal-gold mb-2">
+              <div className="text-4xl font-black text-[#e6c67e] mb-2 drop-shadow-[0_2px_10px_rgba(230,198,126,0.3)]">
                 {item.value}
               </div>
               
