@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               Instrução: Substitua o src por um PNG transparente (recortado) da sua foto.
             */}
             <img 
-              src="https://picsum.photos/600/800?grayscale" 
+              src="https://i.imgur.com/qHM2qTu.png" 
               alt="Dr. Vitor Dalben" 
               className="relative z-10 max-h-full w-auto object-contain drop-shadow-[0_0_50px_rgba(0,0,0,0.8)] mask-image-gradient"
             />
