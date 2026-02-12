@@ -11,23 +11,23 @@ const HowItWorks: React.FC = () => {
     {
       id: "02",
       title: "Análise Jurídica",
-      desc: "Verificamos se o seu caso está maduro para darmos entrada em uma ação"
+      desc: "Verificamos se o seu caso está maduro para darmos entrada em uma ação."
     },
     {
       id: "03",
-      title: "Protocolo de Blindagem Contra o Telemarketing",
-      desc: "Iniciamos um protocolo para a redução da perturbação e ainda para a coleta de provas judiciais"
+      title: "Protocolo de Blindagem",
+      desc: "Iniciamos um protocolo para a redução da perturbação e para a coleta de provas judiciais."
     },
     {
       id: "04",
       title: "Ajuizamento",
-      desc: "Com o caso sólido, damos entrada na ação e buscamos uma indenização justa face ao seu sofrimento."
+      desc: "Com o caso sólido, buscamos uma indenização justa face ao seu sofrimento."
     }
   ];
 
   return (
     <section className="py-20 bg-legal-black px-6 relative overflow-hidden">
-       {/* Background decorative line */}
+       {/* Linha decorativa de fundo */}
        <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-legal-gold/20 to-transparent hidden md:block"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
@@ -57,10 +57,22 @@ const HowItWorks: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* ÁREA DO GATILHO DE URGÊNCIA E BOTÃO FINAL */}
+        <div className="mt-16 text-center flex flex-col items-center">
+          
+          {/* Box de Alerta/Urgência */}
+          <div className="mb-8 max-w-2xl bg-red-950/20 border border-red-900/50 p-6 rounded-xl">
+            <p className="text-red-200 text-sm md:text-base leading-relaxed">
+              <span className="font-bold text-red-500 block mb-1">⚠️ AVISO IMPORTANTE:</span>
+              Não apague o histórico de chamadas do seu celular. Ele é sua prova principal. 
+              Fale conosco agora antes que esses registros se percam automaticamente.
+            </p>
+          </div>
+
           <Button 
              text="QUERO PARAR DE RECEBER LIGAÇÕES AGORA" 
              href="https://wa.me/5518997088728"
+             fullWidth={false}
           />
         </div>
       </div>
