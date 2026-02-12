@@ -53,7 +53,7 @@ const AboutLawyer: React.FC = () => {
             <div className="pt-2">
                <Button 
                  text="FALAR COM DR. VITOR NO WHATSAPP" 
-                 href="https://wa.me/SEUNUMERO"
+                 href="https://wa.me/5518997088728"
                  fullWidth={false}
                />
             </div>
