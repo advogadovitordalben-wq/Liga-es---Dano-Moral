@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           <div className="pt-4 flex flex-col md:flex-row items-center gap-4 justify-center md:justify-start">
             <Button 
               text="VERIFICAR SE TENHO DIREITO À INDENIZAÇÃO" 
-              href="https://wa.me/SEUNUMERO" 
+              href="https://wa.me/5518997088728" 
               className="md:text-lg w-full md:w-auto shadow-lg shadow-legal-gold/10"
             />
           </div>
