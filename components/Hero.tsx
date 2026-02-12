@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         {/* A foto que você enviou */}
         <img 
-          src="/foto-header.png" 
+          src="https://i.imgur.com/sBDyHFA.png" 
           alt="Dr. Vitor Dalben" 
           className="w-full h-full object-cover object-right md:object-center opacity-90"
         />
