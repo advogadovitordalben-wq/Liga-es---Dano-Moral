@@ -19,7 +19,7 @@ const AboutLawyer: React.FC = () => {
                 <div className="relative rounded-lg overflow-hidden shadow-2xl shadow-black/80 aspect-[3/4] w-full max-w-sm mx-auto">
                    {/* Placeholder para a foto do Dr. Vítor Dalben */}
                    <img 
-                     src="https://picsum.photos/seed/lawyer/400/500?grayscale" 
+                     src="https://i.imgur.com/pr7H6ia.png" 
                      alt="Dr. Vítor Dalben" 
                      className="w-full h-full object-cover filter contrast-110"
                    />
