@@ -11,12 +11,12 @@ const AboutLaw: React.FC = () => {
           </h2>
           
           <div className="space-y-4 text-legal-text-muted leading-relaxed text-lg">
-            <p>
-              O tempo é o recurso mais valioso que temos. Quando uma empresa obriga você a gastar seu tempo vital para resolver problemas criados por ela mesma (como ligações incessantes), ela está causando um dano.
-            </p>
-            <p>
-              A perturbação do sossego não é apenas um "mero aborrecimento". É uma conduta ilícita que gera o dever de indenizar. Não aceite ser refém do telemarketing abusivo.
-            </p>
+              <p>
+                <strong className="text-white">A lei está do seu lado.</strong> O Tribunal de Justiça já decidiu que empresas que interrompem seu trabalho ou descanso com ligações excessivas cometem um ato ilícito.
+             </p>
+              <p>
+                Não é "mero aborrecimento". É <span className="text-legal-gold font-semibold">Dano Moral</span> por Desvio Produtivo: quando você é forçado a desperdiçar seu tempo vital para lidar com um problema que você não criou.
+             </p>
           </div>
 
           <div className="pt-6">
