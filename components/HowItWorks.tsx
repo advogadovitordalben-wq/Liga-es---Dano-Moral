@@ -70,7 +70,7 @@ const HowItWorks: React.FC = () => {
           </div>
 
           <Button 
-             text="QUERO PARAR DE RECEBER LIGAÇÕES AGORA" 
+             text="RELATAR O MEU CASO AO ADVOGADO AGORA" 
              href="https://wa.me/5518997088728"
              fullWidth={false}
           />
