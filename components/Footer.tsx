@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
         <div className="text-center md:text-left space-y-4 max-w-md">
           <div>
-            <h3 className="font-serif text-2xl font-bold text-white mb-1">VITOR DALBEN</h3>
+            <h3 className="font-serif text-2xl font-bold text-white mb-1">VÍTOR DALBEN</h3>
             <p className="text-xs text-legal-gold tracking-[0.3em] uppercase">Advogados</p>
           </div>
           
