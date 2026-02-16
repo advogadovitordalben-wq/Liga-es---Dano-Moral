@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-2xl text-gray-200 font-light leading-relaxed max-w-2xl drop-shadow-md">
-            A Justiça tem condenado empresas a pagarem danos morais por ligações excessivas de cobrança ou ofertas. Pare de ser incomodado hoje mesmo.
+            A Justiça tem condenado empresas a pagarem danos morais por ligações excessivas de cobrança ou ofertas. Entenda quando é possível ser indenizado(a).
           </p>
           
           <div className="pt-4 flex flex-col md:flex-row items-center gap-4 justify-center md:justify-start">
