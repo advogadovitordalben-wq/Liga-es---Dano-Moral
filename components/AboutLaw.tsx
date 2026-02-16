@@ -21,7 +21,7 @@ const AboutLaw: React.FC = () => {
 
           <div className="pt-6">
             <Button 
-              text="FALAR COM UM ADVOGADO AGORA" 
+              text="FALAR COM O ADVOGADO AGORA" 
               href="https://wa.me/SEUNUMERO" 
             />
           </div>
