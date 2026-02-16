@@ -15,7 +15,7 @@ const Jurisprudence: React.FC = () => {
     {
       icon: <ShieldCheck className="w-10 h-10" />,
       title: "PROTEÇÃO AO SOSSEGO",
-      value: "R$ 300,00 / ato",
+      value: "R$ 300,00 / Ligação",
       context: "Decisão liminar (Tutela de Urgência) determinando a cessação imediata de ligações que atingem a tranquilidade do consumidor.",
       quote: "Cabível a concessão da tutela para determinar a cessação das ligações... limitadas a um teto de R$ 60.000,00.",
       process: "Agravo 2193798-52.2024.8.26.0000",
