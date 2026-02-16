@@ -21,7 +21,7 @@ const HarassmentTypes: React.FC = () => {
     {
       icon: <Smartphone className="w-8 h-8 text-legal-gold" />,
       title: "Volume Massivo",
-      text: "Mais de 2 ou 3 ligações no mesmo dia, caracterizando perseguição e abuso de direito."
+      text: "Mais de 3 ligações no mesmo dia, por varios dias consecutivos, caracterizando perseguição e abuso de direito."
     },
     {
       icon: <AlertTriangle className="w-8 h-8 text-legal-gold" />,
