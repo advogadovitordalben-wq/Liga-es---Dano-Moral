@@ -10,7 +10,7 @@ const Header: React.FC = () => {
         </div>
         <div>
           <h1 className="font-serif text-xl md:text-2xl font-bold tracking-[0.2em] text-white drop-shadow-lg">
-            VITOR DALBEN
+            VÍTOR DALBEN
           </h1>
           <p className="text-[10px] md:text-xs text-legal-gold tracking-[0.4em] uppercase font-bold">
             Advogados
