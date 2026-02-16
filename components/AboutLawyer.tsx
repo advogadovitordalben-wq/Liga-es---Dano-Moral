@@ -40,13 +40,13 @@ const AboutLawyer: React.FC = () => {
 
             <div className="space-y-6 text-gray-300 leading-relaxed text-lg font-light">
                 <p>
-                  <strong className="text-white font-semibold">Especialista em Defesa do Consumidor.</strong> Com atuação digital em todo o território nacional, combinamos técnica jurídica apurada com a agilidade que o seu caso exige.
+                  <strong className="text-white font-semibold">Atuação dedicada na Defesa do Consumidor.</strong> Atuamos de forma digital em todo o Brasil, enfrentando abusos de grandes corporações com técnica jurídica apurada.
                 </p>
                 <p>
-                  Temos vasta experiência em situações de desrespeito ao consumidor, especialmente em casos de <span className="text-legal-gold">ligações abusivas</span> e cobranças indevidas, ajudando nossos clientes a recuperarem o equilíbrio e evitarem prejuízos.
+                  Nosso foco é a defesa da tranquilidade do consumidor. O Judiciário tem entendido que a <span className="text-legal-gold">perturbação do sossego</span> não é mero aborrecimento, mas sim um dano passível de reparação.
                 </p>
                 <p>
-                  Meu objetivo é impedir que você seja lesado financeiramente e garantir que sua tranquilidade seja respeitada por grandes corporações.
+                  Não prometemos valores ou resultados, pois cada processo é único. <strong className="text-white">Prometemos empenho máximo</strong> e uma estratégia jurídica sólida para buscar os seus direitos.
                 </p>
             </div>
 
