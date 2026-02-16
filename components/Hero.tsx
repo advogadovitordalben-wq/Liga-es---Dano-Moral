@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         {/* A foto que você enviou */}
         <img 
           src="https://i.imgur.com/sBDyHFA.png" 
-          alt="Dr. Vitor Dalben" 
+          alt="Dr. Vítor Dalben" 
           className="w-full h-full object-cover object-right md:object-center opacity-90"
         />
         
