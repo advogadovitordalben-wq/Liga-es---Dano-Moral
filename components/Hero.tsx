@@ -25,12 +25,12 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl space-y-8 text-center md:text-left">
           
           <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-white drop-shadow-2xl">
-            TRANSFORME A SUA <br/>
+            A JUSTIÇA RECONHECE <br/>
             <span className="text-transparent bg-clip-text bg-gold-gradient italic">
-              PERTURBAÇÃO
-            </span> EM <br/>
+              LIGAÇÕES EXCESSIVAS
+            </span> GERAM O <br/>
             <span className="text-legal-gold">
-              INDENIZAÇÃO.
+              DEVER DE INDENIZAR.
             </span>
           </h1>
           
@@ -40,14 +40,14 @@ const Hero: React.FC = () => {
           
           <div className="pt-4 flex flex-col md:flex-row items-center gap-4 justify-center md:justify-start">
             <Button 
-              text="VERIFICAR SE TENHO DIREITO À INDENIZAÇÃO" 
+              text="QUERO FALAR COM O ADVOGADO" 
               href="https://wa.me/5518997088728" 
               className="md:text-lg w-full md:w-auto shadow-2xl shadow-legal-gold/20"
             />
           </div>
           
           <p className="text-sm text-gray-400 italic">
-            *Análise confidencial e gratuita realizada por especialista.
+            *Análise inicial confidencial e sem custo pelo advogado.
           </p>
         </div>
       </div>
