@@ -33,7 +33,7 @@ const Jurisprudence: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-legal-black px-6 relative">
+    <section className="py-24 bg-legal-black px-6 relative border-t border-gray-900"> {/* Adicionei border-t para separar */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-legal-gold/5 blur-[120px] rounded-full pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto">
@@ -44,8 +44,9 @@ const Jurisprudence: React.FC = () => {
           <h2 className="font-serif text-3xl md:text-5xl text-white mb-6">
             Estudo de Precedentes <span className="text-legal-gold">Judiciais</span>
           </h2>
+          {/* ALTERAÇÃO AQUI: */}
           <p className="text-legal-text-muted max-w-3xl mx-auto text-lg font-light">
-            Síntese de decisões recentes dos Tribunais sobre a aplicação da Teoria do Desvio Produtivo e a proteção ao sossego do consumidor.
+             casos reais de indenizações judiciais.
           </p>
         </div>
 
