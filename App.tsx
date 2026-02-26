@@ -1,32 +1,45 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import TargetAudience from './components/TargetAudience'; // Novo
+// Importando os novos componentes
+import TargetAudience from './components/TargetAudience';
+import WhyItWorks from './components/WhyItWorks';
+import HistoryWarning from './components/HistoryWarning';
+// Importando componentes existentes
 import HarassmentTypes from './components/HarassmentTypes';
-import WhyItWorks from './components/WhyItWorks'; // Novo
-import HistoryWarning from './components/HistoryWarning'; // Novo
-import HowItWorks from './components/HowItWorks';
 import Jurisprudence from './components/Jurisprudence';
+import HowItWorks from './components/HowItWorks';
 import AboutLawyer from './components/AboutLawyer';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
-
-// PainPoints e AboutLaw foram removidos
 
 function App() {
   return (
     <div className="min-h-screen bg-legal-black text-legal-text font-sans selection:bg-legal-gold selection:text-black">
       <Header />
       <main>
+        {/* 1. Hero alterado */}
         <Hero />
         
-        {/* Nova Ordem das Seções */}
+        {/* 2. Nova Seção: Atenção (Vermelho) */}
         <TargetAudience />
+        
+        {/* 3. Seção Movida: Identifique o Abuso */}
         <HarassmentTypes />
+        
+        {/* 4. Nova Seção: Por que funciona? */}
         <WhyItWorks />
+        
+        {/* 5. Nova Seção: Aviso do Histórico */}
         <HistoryWarning />
+        
+        {/* 6. Como funciona (com o item 3 alterado) */}
         <HowItWorks />
+        
+        {/* 7. Precedentes (Movido para cá) */}
         <Jurisprudence />
+        
+        {/* 8. Sobre o Advogado */}
         <AboutLawyer />
       </main>
       <Footer />
