@@ -6,7 +6,15 @@ const HowItWorks: React.FC = () => {
     {
       id: "01",
       title: "Relato do Caso",
-      content: "Você nos conta o que está acontecendo via WhatsApp. É rápido e 100% online."
+      content: (
+        <>
+          Você nos conta o que está acontecendo via WhatsApp. É rápido e 100% online.
+          <br /><br />
+          <span className="italic text-gray-500 text-xs">
+            *Análise inicial confidencial e sem custo pelo advogado.
+          </span>
+        </>
+      )
     },
     {
       id: "02",
