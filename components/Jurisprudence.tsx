@@ -47,7 +47,7 @@ const Jurisprudence: React.FC = () => {
           </h2>
           {/* SUBTÍTULO ALTERADO AQUI: */}
           <p className="text-legal-text-muted max-w-3xl mx-auto text-lg font-light">
-             veja exemplos de decisões judiciais reais
+             veja exemplos de decisões judiciais reais a seguir:
           </p>
         </div>
 
