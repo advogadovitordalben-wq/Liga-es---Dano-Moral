@@ -1,14 +1,14 @@
 import React from 'react';
+
+// 1. IMPORTANDO OS COMPONENTES
 import Header from './components/Header';
 import Hero from './components/Hero';
-// Importando os novos componentes
-import TargetAudience from './components/TargetAudience';
-import WhyItWorks from './components/WhyItWorks';
-import HistoryWarning from './components/HistoryWarning';
-// Importando componentes existentes
+import TargetAudience from './components/TargetAudience'; // NOVO
 import HarassmentTypes from './components/HarassmentTypes';
-import Jurisprudence from './components/Jurisprudence';
+import WhyItWorks from './components/WhyItWorks'; // NOVO
+import HistoryWarning from './components/HistoryWarning'; // NOVO
 import HowItWorks from './components/HowItWorks';
+import Jurisprudence from './components/Jurisprudence';
 import AboutLawyer from './components/AboutLawyer';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
@@ -18,30 +18,31 @@ function App() {
     <div className="min-h-screen bg-legal-black text-legal-text font-sans selection:bg-legal-gold selection:text-black">
       <Header />
       <main>
-        {/* 1. Hero alterado */}
+        {/* HERO (Capa do site) */}
         <Hero />
         
-        {/* 2. Nova Seção: Atenção (Vermelho) */}
+        {/* NOVA SEÇÃO: ATENÇÃO (Vermelho) */}
         <TargetAudience />
         
-        {/* 3. Seção Movida: Identifique o Abuso */}
+        {/* SEÇÃO MOVIDA: Identifique o Abuso (Icones) */}
         <HarassmentTypes />
         
-        {/* 4. Nova Seção: Por que funciona? */}
+        {/* NOVA SEÇÃO: Por que a ação funciona? */}
         <WhyItWorks />
         
-        {/* 5. Nova Seção: Aviso do Histórico */}
+        {/* NOVA SEÇÃO: Aviso de não apagar histórico */}
         <HistoryWarning />
         
-        {/* 6. Como funciona (com o item 3 alterado) */}
+        {/* Como funciona o atendimento */}
         <HowItWorks />
         
-        {/* 7. Precedentes (Movido para cá) */}
+        {/* Precedentes Judiciais (Movido para baixo de Como Funciona) */}
         <Jurisprudence />
         
-        {/* 8. Sobre o Advogado */}
+        {/* Sobre o Advogado */}
         <AboutLawyer />
       </main>
+      
       <Footer />
       <FloatingWhatsApp />
     </div>
