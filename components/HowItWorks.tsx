@@ -19,7 +19,7 @@ const HowItWorks: React.FC = () => {
     {
       id: "02",
       title: "Análise Jurídica",
-      content: "Verificamos se o seu caso está maduro para darmos entrada em uma ação."
+      content: "Verificamos se o seu caso está maduro para darmos entrada em uma ação. Caso o seu caso demande mais provas nós recomendaremos o nosso Protocolo de Otimização das Provas com o objetivo de otimizar as suas chances de receber uma indenização justa."
     },
     {
       id: "03",
