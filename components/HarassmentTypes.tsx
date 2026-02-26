@@ -42,8 +42,9 @@ const HarassmentTypes: React.FC = () => {
           <span className="text-legal-gold font-semibold tracking-widest uppercase text-sm block mb-2">
             Identifique o Abuso
           </span>
+          {/* TÍTULO ALTERADO AQUI: */}
           <h2 className="font-serif text-3xl md:text-4xl text-white mb-6">
-            O que configura <span className="text-legal-gold">Dano Moral?</span>
+            O que causa <span className="text-legal-gold">Dano Moral?</span>
           </h2>
           <p className="text-legal-text-muted max-w-2xl mx-auto">
             Não é apenas o número de ligações. O modo como a empresa age também gera dever de indenizar. Veja se seu caso se encaixa:
