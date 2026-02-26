@@ -6,22 +6,29 @@ const HowItWorks: React.FC = () => {
     {
       id: "01",
       title: "Relato do Caso",
-      desc: "Você nos conta o que está acontecendo via WhatsApp. É rápido e 100% online."
+      content: "Você nos conta o que está acontecendo via WhatsApp. É rápido e 100% online."
     },
     {
       id: "02",
       title: "Análise Jurídica",
-      desc: "Verificamos se o seu caso está maduro para darmos entrada em uma ação."
+      content: "Verificamos se o seu caso está maduro para darmos entrada em uma ação."
     },
     {
       id: "03",
-      title: "Protocolo de Blindagem",
-      desc: "Iniciamos um protocolo para a redução da perturbação e para a coleta de provas judiciais."
+      title: "Protocolo de Otimização das Provas",
+      content: (
+        <ul className="list-disc pl-4 space-y-1 text-gray-300 mt-2">
+          <li>Identificar formalmente a origem das chamadas</li>
+          <li>Notificar a empresa responsável</li>
+          <li>Registrar a reiteração das ligações</li>
+          <li>Organizar as provas de forma adequada para o processo</li>
+        </ul>
+      )
     },
     {
       id: "04",
       title: "Ajuizamento",
-      desc: "Com o caso sólido, buscamos uma indenização justa face ao seu sofrimento."
+      content: "Com o caso sólido, buscamos uma indenização justa face ao seu sofrimento."
     }
   ];
 
@@ -49,26 +56,16 @@ const HowItWorks: React.FC = () => {
                   {step.id}
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3">{step.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
-                  {step.desc}
-                </p>
+                <div className="text-sm text-gray-400 leading-relaxed">
+                  {step.content}
+                </div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* ÁREA DO GATILHO DE URGÊNCIA E BOTÃO FINAL */}
+        {/* BOTÃO FINAL */}
         <div className="mt-16 text-center flex flex-col items-center">
-          
-          {/* Box de Alerta/Urgência */}
-          <div className="mb-8 max-w-2xl bg-red-950/20 border border-red-900/50 p-6 rounded-xl">
-            <p className="text-red-200 text-sm md:text-base leading-relaxed">
-              <span className="font-bold text-red-500 block mb-1">⚠️ AVISO IMPORTANTE:</span>
-              Não apague o histórico de chamadas do seu celular. Ele é sua prova principal. 
-              Fale conosco agora antes que esses registros se percam automaticamente.
-            </p>
-          </div>
-
           <Button 
              text="RELATAR O MEU CASO AO ADVOGADO AGORA" 
              href="https://wa.me/5518997088728"
