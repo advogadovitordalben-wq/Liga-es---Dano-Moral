@@ -2,12 +2,15 @@ import React from 'react';
 
 const HistoryWarning: React.FC = () => {
   return (
-    <section className="bg-legal-black pb-12 px-6">
-      <div className="max-w-2xl mx-auto bg-red-950/20 border border-red-900/50 p-6 rounded-xl text-center">
-        <p className="text-red-200 text-sm md:text-base leading-relaxed">
-          <span className="font-bold text-red-500 block mb-2 text-lg">⚠️ AVISO IMPORTANTE:</span>
+    <section className="bg-legal-black pb-16 px-6">
+      <div className="max-w-3xl mx-auto bg-gradient-to-r from-red-950/40 to-black border border-red-900/50 p-8 rounded-xl text-center shadow-2xl">
+        <p className="text-red-200 text-base md:text-lg leading-relaxed">
+          <span className="font-bold text-red-500 block mb-3 text-xl tracking-wide uppercase">
+            ⚠️ Aviso Importante
+          </span>
           Não apague o histórico de chamadas do seu celular. Ele é sua prova principal. 
-          Fale conosco agora antes que esses registros se percam automaticamente.
+          <br />
+          <span className="text-white font-medium">Fale conosco agora antes que esses registros se percam automaticamente.</span>
         </p>
       </div>
     </section>
