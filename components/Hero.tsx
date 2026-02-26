@@ -1,23 +1,20 @@
 import React from 'react';
-import Button from './Button';
+// Button import removido pois não é mais usado
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden bg-black">
+    <section className="relative min-h-[85vh] flex items-center pt-20 overflow-hidden bg-black">
       
       {/* IMAGEM DE FUNDO COM EFEITOS */}
       <div className="absolute inset-0 z-0">
-        {/* A foto que você enviou */}
         <img 
           src="https://i.imgur.com/sBDyHFA.png" 
           alt="Dr. Vítor Dalben" 
           className="w-full h-full object-cover object-right md:object-center opacity-90"
         />
         
-        {/* GRADIENTE PARA OFUSCAR A ESTANTE E DAR FOCO NO TEXTO (Esquerda para Direita) */}
+        {/* GRADIENTES */}
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10"></div>
-        
-        {/* SOMBRA NA PARTE INFERIOR PARA MESCLAR COM A PRÓXIMA SEÇÃO (Cima para Baixo) */}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
       </div>
 
@@ -25,28 +22,20 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl space-y-8 text-center md:text-left">
           
           <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl font-bold leading-tight text-white drop-shadow-2xl">
-            A JUSTIÇA RECONHECE <br/>
-            <span className="text-transparent bg-clip-text bg-gold-gradient italic">
-              LIGAÇÕES EXCESSIVAS
-            </span> GERAM O <br/>
-            <span className="text-legal-gold">
-              DEVER DE INDENIZAR.
+            LIGAÇÕES INDESEJADAS? <br/>
+            <span className="text-transparent bg-clip-text bg-gold-gradient italic text-3xl md:text-5xl lg:text-6xl mt-4 block">
+              DESCUBRA SE VOCÊ TEM <br/>
+              DIREITO AO DANO MORAL
             </span>
           </h1>
           
-          <p className="text-lg md:text-2xl text-gray-200 font-light leading-relaxed max-w-2xl drop-shadow-md">
+          <p className="text-lg md:text-xl text-gray-200 font-light leading-relaxed max-w-2xl drop-shadow-md">
             A Justiça tem condenado empresas a pagarem danos morais por ligações excessivas de cobrança ou ofertas. Entenda quando é possível ser indenizado(a).
           </p>
           
-          <div className="pt-4 flex flex-col md:flex-row items-center gap-4 justify-center md:justify-start">
-            <Button 
-              text="QUERO FALAR COM O ADVOGADO" 
-              href="https://wa.me/5518997088728" 
-              className="md:text-lg w-full md:w-auto shadow-2xl shadow-legal-gold/20"
-            />
-          </div>
+          {/* Botão removido conforme solicitado */}
           
-          <p className="text-sm text-gray-400 italic">
+          <p className="text-sm text-gray-400 italic pt-4">
             *Análise inicial confidencial e sem custo pelo advogado.
           </p>
         </div>
