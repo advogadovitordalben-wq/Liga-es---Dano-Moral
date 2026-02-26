@@ -33,7 +33,7 @@ const Jurisprudence: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-legal-black px-6 relative border-t border-gray-900"> {/* Adicionei border-t para separar */}
+    <section className="py-24 bg-legal-black px-6 relative border-t border-gray-900">
       <div className="absolute top-0 right-0 w-96 h-96 bg-legal-gold/5 blur-[120px] rounded-full pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto">
@@ -41,12 +41,13 @@ const Jurisprudence: React.FC = () => {
           <span className="text-legal-gold font-semibold tracking-[0.3em] uppercase text-xs block mb-3">
             Informativo Jurídico
           </span>
+          {/* TÍTULO ALTERADO AQUI: */}
           <h2 className="font-serif text-3xl md:text-5xl text-white mb-6">
-            Estudo de Precedentes <span className="text-legal-gold">Judiciais</span>
+            Casos Reais de <span className="text-legal-gold">Indenização</span>
           </h2>
-          {/* ALTERAÇÃO AQUI: */}
+          {/* SUBTÍTULO ALTERADO AQUI: */}
           <p className="text-legal-text-muted max-w-3xl mx-auto text-lg font-light">
-             casos reais de indenizações judiciais.
+             veja exemplos de decisões judiciais reais
           </p>
         </div>
 
