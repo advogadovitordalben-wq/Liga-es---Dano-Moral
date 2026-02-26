@@ -1,14 +1,17 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import PainPoints from './components/PainPoints';
+import TargetAudience from './components/TargetAudience'; // Novo
 import HarassmentTypes from './components/HarassmentTypes';
-import Jurisprudence from './components/Jurisprudence';
+import WhyItWorks from './components/WhyItWorks'; // Novo
+import HistoryWarning from './components/HistoryWarning'; // Novo
 import HowItWorks from './components/HowItWorks';
-import AboutLaw from './components/AboutLaw';
+import Jurisprudence from './components/Jurisprudence';
 import AboutLawyer from './components/AboutLawyer';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
+
+// PainPoints e AboutLaw foram removidos
 
 function App() {
   return (
@@ -16,11 +19,14 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <PainPoints />
+        
+        {/* Nova Ordem das Seções */}
+        <TargetAudience />
         <HarassmentTypes />
-        <Jurisprudence />
+        <WhyItWorks />
+        <HistoryWarning />
         <HowItWorks />
-        <AboutLaw />
+        <Jurisprudence />
         <AboutLawyer />
       </main>
       <Footer />
