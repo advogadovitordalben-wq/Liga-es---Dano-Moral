@@ -2,6 +2,9 @@ import React from 'react';
 import Button from './Button';
 
 const AboutLawyer: React.FC = () => {
+  // Link com a mensagem personalizada
+  const whatsappLink = "https://wa.me/5518997088728?text=Ol%C3%A1!%20Acessei%20o%20seu%20site%20e%20percebi%20que%20estou%20sendo%20prejudicado%20com%20liga%C3%A7%C3%B5es%20abusivas!";
+
   return (
     <section className="py-24 bg-legal-card border-t border-legal-gold/20 relative overflow-hidden">
       {/* Elemento decorativo de fundo */}
@@ -53,7 +56,7 @@ const AboutLawyer: React.FC = () => {
             <div className="pt-2">
                <Button 
                  text="ANALISE O MEU CASO" 
-                 href="https://wa.me/5518997088728"
+                 href={whatsappLink}
                  fullWidth={false}
                />
             </div>
