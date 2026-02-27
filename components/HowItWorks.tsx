@@ -22,11 +22,11 @@ const HowItWorks: React.FC = () => {
     {
       id: "02",
       title: "Análise Jurídica",
-      content: "Verificamos se o seu caso está maduro para darmos entrada em uma ação. Caso o seu caso demande mais provas nós recomendaremos o nosso Protocolo de Otimização das Provas com o objetivo de otimizar as suas chances de receber uma indenização justa."
+      content: "Verificamos se o seu caso está maduro para darmos entrada em uma ação. Caso o seu caso demande mais provas nós recomendaremos a nossa Blindagem de Provas com o objetivo de otimizar as suas chances de receber uma indenização justa."
     },
     {
       id: "03",
-      title: "Protocolo de Otimização das Provas",
+      title: "Blindagem de Provas",
       content: (
         <ul className="list-disc pl-4 space-y-1 text-gray-300 mt-2">
           <li>Identificar formalmente a origem das chamadas</li>
