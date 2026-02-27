@@ -2,6 +2,9 @@ import React from 'react';
 import Button from './Button';
 
 const HowItWorks: React.FC = () => {
+  // Definindo o link aqui para ficar mais organizado
+  const whatsappLink = "https://wa.me/5518997088728?text=Ol%C3%A1!%20Acessei%20o%20seu%20site%20e%20percebi%20que%20estou%20sendo%20prejudicado%20com%20liga%C3%A7%C3%B5es%20abusivas!";
+
   const steps = [
     {
       id: "01",
@@ -72,11 +75,11 @@ const HowItWorks: React.FC = () => {
           ))}
         </div>
 
-        {/* BOTÃO FINAL */}
+        {/* BOTÃO FINAL COM O LINK PERSONALIZADO */}
         <div className="mt-16 text-center flex flex-col items-center">
           <Button 
              text="RELATAR O MEU CASO AO ADVOGADO AGORA" 
-             href="https://wa.me/5518997088728"
+             href={whatsappLink}
              fullWidth={false}
           />
         </div>
